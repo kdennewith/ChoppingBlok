@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">RecipeBookGUI</string>
+    <string name="create_recipe">Create Recipe</string>
+    <string name="home">Home</string>
+    <string name="recipes">Recipes</string>
+    <style name="Base.Theme.RecipeBookGUI" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.RecipeBookGUI" parent="Base.Theme.RecipeBookGUI"/>
+</resources>

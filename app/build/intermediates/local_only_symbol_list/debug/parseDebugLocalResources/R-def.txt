@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable baseline_cabin_24
+drawable baseline_cookie_24
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id bottom_navigation_bar
+id createRecipeButton
+id homeButton
+id main
+id recipeButton
+id textView
+id truiton_image
+layout activity_main
+layout tab3
+layout tab_1
+layout tab_2
+menu bottom_navigation_bar
+mipmap home
+mipmap ic_launcher
+mipmap ic_launcher_round
+mipmap recipes
+string app_name
+string create_recipe
+string home
+string recipes
+style Base.Theme.RecipeBookGUI
+style Theme.RecipeBookGUI
+xml backup_rules
+xml data_extraction_rules

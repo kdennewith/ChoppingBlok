@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/drawable_baseline_cookie_24.xml.flat",
+        "source": "com.example.recipebookgui.app-main-34:/drawable/baseline_cookie_24.xml"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-hdpi_recipes.png.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-hdpi/recipes.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xxhdpi_home.png.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-xxhdpi/home.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xhdpi_home.png.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-xhdpi/home.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xxxhdpi_home.png.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-xxxhdpi/home.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/layout_tab_1.xml.flat",
+        "source": "com.example.recipebookgui.app-main-34:/layout/tab_1.xml"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.recipebookgui.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.example.recipebookgui.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xxhdpi_recipes.png.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-xxhdpi/recipes.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/xml_backup_rules.xml.flat",
+        "source": "com.example.recipebookgui.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/menu_bottom_navigation_bar.xml.flat",
+        "source": "com.example.recipebookgui.app-main-34:/menu/bottom_navigation_bar.xml"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.recipebookgui.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-mdpi_home.png.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-mdpi/home.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/drawable_baseline_cabin_24.xml.flat",
+        "source": "com.example.recipebookgui.app-main-34:/drawable/baseline_cabin_24.xml"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-hdpi_home.png.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-hdpi/home.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/layout_tab_2.xml.flat",
+        "source": "com.example.recipebookgui.app-main-34:/layout/tab_2.xml"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xhdpi_recipes.png.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-xhdpi/recipes.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.recipebookgui.app-main-34:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-mdpi_recipes.png.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-mdpi/recipes.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xxxhdpi_recipes.png.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-xxxhdpi/recipes.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/layout_tab3.xml.flat",
+        "source": "com.example.recipebookgui.app-main-34:/layout/tab3.xml"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.recipebookgui.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    }
+]
