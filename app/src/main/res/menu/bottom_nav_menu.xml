@@ -3,13 +3,13 @@
     <item
         android:id="@+id/person"
         android:title="@string/recipe"
-        android:icon="@mipmap/recipe"/>
+        android:icon="@drawable/recipe_icon"/>
     <item
         android:id="@+id/home"
         android:title="@string/home"
-        android:icon="@mipmap/home"/>
+        android:icon="@drawable/home_icon"/>
     <item
         android:id="@+id/settings"
         android:title="@string/new_recipe"
-        android:icon="@mipmap/plus"/>
+        android:icon="@drawable/plus_sign_18"/>
 </menu>
