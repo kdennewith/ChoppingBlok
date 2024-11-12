@@ -38,6 +38,44 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RecipeBookGUI" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RecipeBookGUI" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RecipeBookGUI" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RecipeBookGUI" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -83,6 +121,11 @@
         </map>
       </branch-storage>
     </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="KyleTestBranch" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -235,7 +278,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731237548644</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added a toolbar with icons and hover animation and starting the recyclerView on the Homepage.">
+      <option name="closed" value="true" />
+      <created>1731401359101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731401359101</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Just some Gradle library file commits">
+      <option name="closed" value="true" />
+      <created>1731402022752</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731402022752</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -276,6 +335,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit. Holds the Project, can replace HomePage.java, CreateRecipePage.java, and RecipesPage.java if needed to implement functions for each page." />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit. Holds the Project, can replace HomePage.java, CreateRecipePage.java, and RecipesPage.java if needed to implement functions for each page." />
+    <MESSAGE value="Added a toolbar with icons and hover animation and starting the recyclerView on the Homepage." />
+    <MESSAGE value="Just some Gradle library file commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Just some Gradle library file commits" />
   </component>
 </project>
