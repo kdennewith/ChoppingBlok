@@ -4,7 +4,7 @@
             "outputFile": "com.example.recipebookgui.app-mergeDebugResources-30:/values-lo/values-lo.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kdenn\\.gradle\\caches\\8.9\\transforms\\9f0332780ac04eee1601c6e523e8673f\\transformed\\appcompat-1.6.1\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\kdenn\\.gradle\\caches\\8.9\\transforms\\48a694b10e054ce39f6ed392220d1b8c\\transformed\\appcompat-1.7.0\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -1,4 +1,6 @@
 package com.example.recipebookgui;
 
-public class HomePage {
+import androidx.fragment.app.Fragment;
+
+public class HomePage extends Fragment {
 }
