@@ -336,7 +336,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/cabin/baseline_cabin_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/favorite/baseline_favorite_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -346,7 +346,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="baseline_cabin_24" />
+                            <entry key="outputName" value="ic_favorite_filled" />
                             <entry key="sourceFile" value="C:\Users\kdenn\AndroidStudioProjects\RecipeBookGUI" />
                           </map>
                         </option>

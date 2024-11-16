@@ -17,6 +17,11 @@
           <theme>@style/Theme.RecipeBookGUI</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/recycler_view_holder.xml">
+        <config>
+          <theme>@style/Theme.RecipeBookGUI</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml">
         <config>
           <theme>@style/Theme.RecipeBookGUI</theme>
@@ -29,8 +34,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0fa1734-2005-4284-b150-c743aeaf1021" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_favorite_filled.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_favorite_outline.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/recycler_view_holder.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +58,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
         <option value="Class" />
         <option value="resourceFile" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -267,7 +276,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731714553321</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Everything is fixed, should run properly. Changed Gradle settings installed dependencies and edited rootProject path to match &quot;recipeBookGUI&quot; as the proper project name.">
+      <option name="closed" value="true" />
+      <created>1731715295166</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731715295166</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Everything is fixed, should run properly. Changed Gradle settings installed dependencies and edited rootProject path to match &quot;recipeBookGUI&quot; as the proper project name.">
+      <option name="closed" value="true" />
+      <created>1731716088720</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731716088720</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -312,6 +337,7 @@
     <MESSAGE value="Should be correct version now, deployed in Iguana." />
     <MESSAGE value="Should be correct version now, deployed in Iguana, workspace.xml changes." />
     <MESSAGE value="Changed some on libs.versions.toml to be able to run version 8.3.2, having SDK problem but might be local and fixing that." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed some on libs.versions.toml to be able to run version 8.3.2, having SDK problem but might be local and fixing that." />
+    <MESSAGE value="Everything is fixed, should run properly. Changed Gradle settings installed dependencies and edited rootProject path to match &quot;recipeBookGUI&quot; as the proper project name." />
+    <option name="LAST_COMMIT_MESSAGE" value="Everything is fixed, should run properly. Changed Gradle settings installed dependencies and edited rootProject path to match &quot;recipeBookGUI&quot; as the proper project name." />
   </component>
 </project>
