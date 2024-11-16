@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "850560834443",
+    "project_id": "chopping-block-dc878",
+    "storage_bucket": "chopping-block-dc878.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850560834443:android:714dd8ef1c37b2fc78ad8e",
+        "android_client_info": {
+          "package_name": "com.example.chopping_block"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxan5B2lr0wOT3SR4giZyn6yYAE7XQbSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
