@@ -1,12 +1,12 @@
 package com.example.chopping_block;
 
 public class recipes {
-
+    //3 items per database recipe
     private String photoUrl;
     private String description;
     private String title;
 
-    // Empty constructor required for Firebase Realtime Database
+    //empty constructor required for Firebase Realtime Database
     public recipes() {}
 
     public recipes(String photoUrl, String description, String title) {
@@ -15,7 +15,7 @@ public class recipes {
         this.title = title;
     }
 
-    // Getters and Setters
+    //getters and setters from original recipes
     public String getPhotoUrl() {
         return photoUrl;
     }
