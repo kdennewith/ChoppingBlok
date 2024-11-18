@@ -1,21 +1,26 @@
 package com.example.chopping_block;
 
+import java.util.List;
+
+//can be the MAIN-PAGE just add search bar and favorites
 public class recipes {
     //3 items per database recipe
     private String photoUrl;
     private String description;
     private String title;
+    private List<Ingredient> ingredients; // A list of ingredients
 
     //empty constructor required for Firebase Realtime Database
     public recipes() {}
 
-    public recipes(String photoUrl, String description, String title) {
-        this.photoUrl = photoUrl;
-        this.description = description;
+    public recipes(String title, String description, List<Ingredient> ingredients, String photoUrl) {
         this.title = title;
+        this.description = description;
+        this.ingredients = ingredients;
+        this.photoUrl = photoUrl;
     }
 
-    //getters and setters from original recipes
+    // Getters and setters
     public String getPhotoUrl() {
         return photoUrl;
     }
@@ -38,5 +43,13 @@ public class recipes {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public List<Ingredient> getIngredients() {
+        return ingredients;
+    }
+
+    public void setIngredients(List<Ingredient> ingredients) {
+        this.ingredients = ingredients;
     }
 }
