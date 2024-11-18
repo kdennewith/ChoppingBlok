@@ -1,4 +1,4 @@
-package com.example.chopping_block;
+package com.example.recipebookgui;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -20,7 +20,7 @@ public class RecipeManager {
     }
 
     //add a recipe to Firebase
-    public void addData(recipes recipe) {
+    public void addData(Recipe recipe) {
         //push generates a unique key for each recipe
         databaseReference.push().setValue(recipe).addOnSuccessListener(aVoid -> {
             //data successfully written to Firebase
@@ -36,17 +36,17 @@ public class RecipeManager {
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                List<recipes> recipes = new ArrayList<>();
+                List<Recipe> recipes = new ArrayList<>();
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
-                    recipes recipe = snapshot.getValue(recipes.class);
+                    Recipe recipe = snapshot.getValue(Recipe.class);
                     if (recipe != null) {
                         recipes.add(recipe);
                     }
                 }
                 //print recipes format of [recipe image from firebase] - Title from Firebase \n - description from firebase
                 System.out.println("Recipes retrieved: " + recipes.size());
-                for (recipes r : recipes) {
-                    System.out.println("Title: " + r.getTitle() + ", Description: " + r.getDescription());
+                for (Recipe r : recipes) {
+                    System.out.println("Title: " + r.getRecipesName() + ", Description: " + r.getDescription());
                 }
             }
 
