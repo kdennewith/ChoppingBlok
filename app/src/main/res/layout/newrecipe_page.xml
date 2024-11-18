@@ -35,7 +35,7 @@
         android:id="@+id/recipeName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Recipe name"
+        android:hint="@string/enter_recipe_name_new_recipe"
         android:padding="15dp"
         android:background="edit_text_background"
         android:layout_marginHorizontal="16dp"
@@ -69,41 +69,31 @@
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="8dp">
 
-        <!-- Ingredients List -->
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/ingredientsList"
-            android:layout_width="0dp"
+        <ScrollView
+            android:id="@+id/new_recipe_ingredient_name_scrollview"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/ingredientsAmount"
-            app:layout_constraintHorizontalWeight="1"
-            android:layout_marginEnd="8dp" />
+            android:background="@color/white"
+            android:focusable="true"
+            android:clickable="true"
+            android:spinnerMode="dropdown"
+            android:isScrollContainer="true"
+            app:layout_constraintTop_toTopOf="@id/ingredientsRow"
+            app:layout_constraintStart_toStartOf="@id/ingredientsRow"
+            android:layout_marginStart="20dp"/>
 
-        <!-- Ingredients Amount -->
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/ingredientsAmount"
-            android:layout_width="0dp"
+        <ScrollView
+            android:id="@+id/new_recipe_ingredient_amount_scrollview"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toEndOf="@id/ingredientsList"
-            app:layout_constraintEnd_toStartOf="@id/dropdown_menu"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontalWeight="1"
-            android:layout_marginEnd="8dp" />
-
-        <!-- Dropdown Menu -->
-        <androidx.coordinatorlayout.widget.CoordinatorLayout
-            android:id="@+id/dropdown_menu"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
-            app:layout_constraintStart_toEndOf="@id/ingredientsAmount"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontalWeight="1" />
+            android:background="@color/white"
+            android:focusable="true"
+            android:clickable="true"
+            android:spinnerMode="dropdown"
+            android:isScrollContainer="true"
+            app:layout_constraintTop_toTopOf="@id/ingredientsRow"
+            app:layout_constraintStart_toEndOf="@id/new_recipe_ingredient_name_scrollview"
+            android:layout_marginStart="20dp"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

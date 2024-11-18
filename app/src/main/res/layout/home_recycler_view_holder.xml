@@ -33,7 +33,7 @@
                 android:id="@+id/card_recipe_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Placeholder"
+                android:text="Placeholder will be from database"
                 android:layout_marginStart="20dp"
                 app:layout_constraintTop_toTopOf="@+id/card_constraint"
                 app:layout_constraintBottom_toBottomOf="@+id/card_constraint"
