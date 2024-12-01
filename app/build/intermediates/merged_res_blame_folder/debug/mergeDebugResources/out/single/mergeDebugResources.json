@@ -1,15 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\drawable_recipe_icon.xml.flat",
-        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\drawable\\recipe_icon.xml"
-    },
-    {
         "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-35:/layout_home_page.xml.flat",
-        "source": "com.example.recipebookgui.app-main-37:/layout/home_page.xml"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\drawable_recipe_icon.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\drawable\\recipe_icon.xml"
     },
     {
         "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\mipmap-xhdpi_home.png.flat",
@@ -54,10 +50,6 @@
     {
         "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\mipmap-xhdpi_recipe.png.flat",
         "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\mipmap-xhdpi\\recipe.png"
-    },
-    {
-        "merged": "com.example.recipebookgui.app-debug-35:/layout_activity_main.xml.flat",
-        "source": "com.example.recipebookgui.app-main-37:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\mipmap-xxhdpi_recipe.png.flat",
@@ -138,6 +130,10 @@
     {
         "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-35:/drawable_chicken_curry.jpg.flat",
+        "source": "com.example.recipebookgui.app-main-37:/drawable/chicken_curry.jpg"
     },
     {
         "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\layout_recipe_page.xml.flat",

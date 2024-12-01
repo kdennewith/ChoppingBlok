@@ -24,6 +24,15 @@ public class HomeRecyclerViewAdapter extends RecyclerView.Adapter<HomeRecyclerVi
         this.recipeList = recipeList;
     }
 
+    /**
+     * This inflates the home_recycler_view_holder to the ViewHolder, basically getting the XML to display/inflate on the parent,
+     *  which is the Adapter
+     * @param parent The ViewGroup into which the new View will be added after it is bound to
+     *               an adapter position.
+     * @param viewType The view type of the new View.
+     *
+     * @return a HomeRecyclerViewHolder
+     */
     @NonNull
     @Override
     public HomeRecyclerViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -31,11 +40,24 @@ public class HomeRecyclerViewAdapter extends RecyclerView.Adapter<HomeRecyclerVi
         return new HomeRecyclerViewHolder(view, view.getContext());
     }
 
+    /**
+     * This binds each view to a holder, for each item there is a position in the HomeReccyclerAdapters recipeList variable
+     *  we pass into it which is updated on the homepage.java using allRecipes and filteredRecipes Lists.
+     * @param holder The ViewHolder which should be updated to represent the contents of the
+     *        item at the given position in the data set.
+     * @param position The position of the item within the adapter's data set.
+     */
     @Override
     public void onBindViewHolder(@NonNull HomeRecyclerViewHolder holder, int position) {
         Recipe recipe = recipeList.get(position);
         holder.bindRecipes(recipeList.get(position));
 
+
+        /*
+            For this favoriteheart listener I put toast messages for error catching and successful changes of the staus
+             of favorite variable. This also set's the value of the Recipe's "favorite" variable which is called with
+             the databaseReference which is the Recipe node so you can go into it's subtree to find the favorite boolean var.
+         */
         holder.favoriteHeart.setOnClickListener(v -> {
             try {
                 if (recipe.getKey() != null) { // Ensure the recipe ID is not null
@@ -73,6 +95,11 @@ public class HomeRecyclerViewAdapter extends RecyclerView.Adapter<HomeRecyclerVi
         return recipeList.size();
     }
 
+    /**
+     * This method is used in the homePage to update the current list, mainly for the filtering of the search
+     * bar if the new recipeList is not equal to the currentRecipeList.
+     * @param newRecipes a new list of recipes that is passed through methods like HomePage.filter().
+     */
     public void updateRecipes(List<Recipe> newRecipes) {
         if (!this.recipeList.equals(newRecipes)) {
             this.recipeList = new ArrayList(newRecipes);

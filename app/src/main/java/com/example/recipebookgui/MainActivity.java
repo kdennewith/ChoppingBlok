@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         FirebaseApp.initializeApp(this);
 
+        // Initialized the Bottom_Nav menu in the menu folder in our /res.
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
         // Set default fragment, in this case our HomePage.

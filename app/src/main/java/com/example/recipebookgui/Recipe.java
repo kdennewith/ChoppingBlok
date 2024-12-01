@@ -6,11 +6,11 @@ import java.util.List;
 public class Recipe {
 
     private String recipesName;
-    private String imageSource;
-    private List<Ingredient> ingredientList;
-    private String description;
-    private boolean favorite;
-    private String key;
+    private String imageSource; // Was gonna just use a .jpg name as String but gonna try Bitmap
+    private List<Ingredient> ingredientList; //List of ingredient objects
+    private String description; // Can explain the recipes steps in here
+    private boolean favorite; // Holds the Favorite status of the Recipe
+    private String key; // What the node's key is I used the default key Strings made by Firebase.
 
     public Recipe(){}
 

@@ -30,6 +30,10 @@ public class HomeRecyclerViewHolder extends RecyclerView.ViewHolder {
         favoriteHeart = itemView.findViewById(R.id.favorite_heart);
     }
 
+    /**
+     * This method binds the objects variables to the ViewHolder for the HomeRecyclerView
+     * @param recipe the Recipe object you are binding to this HomeRecyclerViewHolder
+     */
     void bindRecipes(final Recipe recipe) {
         int resourceId = context.getResources().getIdentifier("chicken_curry.jpg", "drawable", context.getPackageName());
         cardImage.setImageResource(resourceId);

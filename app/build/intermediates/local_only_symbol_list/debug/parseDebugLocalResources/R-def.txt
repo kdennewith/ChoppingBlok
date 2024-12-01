@@ -5,6 +5,7 @@ color textPrimary
 color textSecondary
 color tint
 color white
+drawable chicken_curry
 drawable home_icon
 drawable ic_favorite_filled
 drawable ic_favorite_outline

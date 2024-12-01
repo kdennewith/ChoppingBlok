@@ -49,6 +49,8 @@ public class HomePage extends Fragment {
         searchbar = view.findViewById(R.id.homepage_searchbar);
         recipeHolder = view.findViewById(R.id.homepage_recyclerview);
         recipeHolder.setLayoutManager(new LinearLayoutManager(getActivity()));
+
+
         homeRecyclerViewAdapter = new HomeRecyclerViewAdapter(allRecipes, getActivity());
         recipeHolder.setAdapter(homeRecyclerViewAdapter);
         database.addValueEventListener(new ValueEventListener() {
@@ -66,6 +68,10 @@ public class HomePage extends Fragment {
                 homeRecyclerViewAdapter.notifyDataSetChanged();
             }
 
+
+            // If the View can't be created correctly the program gives a Toast message that the recipes have failed to load, most likely due to database
+            // problem seeing that our data is coming out of a DB, this would throw if the wrong DB was referenced or any other DatabaseError, Unique PrimaryID
+            // problems would throw this also..
             @Override
             public void onCancelled(DatabaseError error) {
                 Log.e("FirebaseDBError", "Failed to read data: " + error.getMessage());
