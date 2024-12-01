@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/cardview_dark_background">
+    android:background="@color/textSecondary">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/title_bar_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/tint"
-        android:elevation="-1dp"
+        android:elevation="0dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +40,9 @@
         android:gravity="center"
         android:paddingStart="0dp"
         android:paddingEnd="20dp"
-        android:queryHint="Search Recipe"
+        android:paddingTop="14dp"
+        app:defaultQueryHint="Search for Recipe"
+        app:queryBackground="@color/white"
         app:iconifiedByDefault="false"
         app:layout_constraintTop_toBottomOf="@id/title_bar_home"/>
 

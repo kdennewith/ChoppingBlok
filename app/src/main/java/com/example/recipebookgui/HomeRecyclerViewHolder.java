@@ -1,5 +1,6 @@
 package com.example.recipebookgui;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.util.Log;
 import android.view.View;
@@ -36,8 +37,7 @@ public class HomeRecyclerViewHolder extends RecyclerView.ViewHolder {
      * @param recipe the Recipe object you are binding to this HomeRecyclerViewHolder
      */
     void bindRecipes(final Recipe recipe) {
-        int resourceId = context.getResources().getIdentifier(recipe.getImageSource(), "drawable", context.getPackageName());
-        Log.d("BindRecipes", "Image Source: " + recipe.getImageSource());
+        @SuppressLint("DiscouragedApi") int resourceId = context.getResources().getIdentifier(recipe.getImageSource(), "drawable", context.getPackageName());
         cardImage.setImageResource(resourceId);
         recipeName.setText(recipe.getRecipesName());
         if (recipe.isFavorite()) {
