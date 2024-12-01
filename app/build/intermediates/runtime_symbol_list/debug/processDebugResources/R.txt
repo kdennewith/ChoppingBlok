@@ -3385,6 +3385,7 @@ int drawable notification_template_icon_bg 0x7f0700f8
 int drawable notification_template_icon_low_bg 0x7f0700f9
 int drawable notification_tile_bg 0x7f0700fa
 int drawable notify_panel_notification_icon_bg 0x7f0700fb
+int drawable pasta 0x7f070102
 int drawable plus_sign_18 0x7f0700fc
 int drawable recipe_icon 0x7f0700fd
 int drawable test_level_drawable 0x7f0700fe

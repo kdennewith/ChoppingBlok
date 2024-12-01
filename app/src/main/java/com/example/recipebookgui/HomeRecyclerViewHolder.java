@@ -1,6 +1,7 @@
 package com.example.recipebookgui;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -35,7 +36,8 @@ public class HomeRecyclerViewHolder extends RecyclerView.ViewHolder {
      * @param recipe the Recipe object you are binding to this HomeRecyclerViewHolder
      */
     void bindRecipes(final Recipe recipe) {
-        int resourceId = context.getResources().getIdentifier("chicken_curry.jpg", "drawable", context.getPackageName());
+        int resourceId = context.getResources().getIdentifier(recipe.getImageSource(), "drawable", context.getPackageName());
+        Log.d("BindRecipes", "Image Source: " + recipe.getImageSource());
         cardImage.setImageResource(resourceId);
         recipeName.setText(recipe.getRecipesName());
         if (recipe.isFavorite()) {

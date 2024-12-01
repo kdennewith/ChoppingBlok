@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\drawable_recipe_icon.xml.flat",
         "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\drawable\\recipe_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\mipmap-xhdpi_home.png.flat",
@@ -84,6 +84,10 @@
         "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\drawable_chicken_curry.jpg.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\drawable\\chicken_curry.jpg"
+    },
+    {
         "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
@@ -124,16 +128,16 @@
         "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.recipebookgui.app-debug-35:/drawable_pasta.jpg.flat",
+        "source": "com.example.recipebookgui.app-main-37:/drawable/pasta.jpg"
+    },
+    {
         "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\mipmap-mdpi_plus.png.flat",
         "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\mipmap-mdpi\\plus.png"
     },
     {
         "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.recipebookgui.app-debug-35:/drawable_chicken_curry.jpg.flat",
-        "source": "com.example.recipebookgui.app-main-37:/drawable/chicken_curry.jpg"
     },
     {
         "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\layout_recipe_page.xml.flat",

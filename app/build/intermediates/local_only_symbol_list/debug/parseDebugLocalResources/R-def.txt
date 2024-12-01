@@ -11,6 +11,7 @@ drawable ic_favorite_filled
 drawable ic_favorite_outline
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable pasta
 drawable plus_sign_18
 drawable recipe_icon
 id addIngredientButton

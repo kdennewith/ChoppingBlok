@@ -57,10 +57,6 @@ public class Recipe {
         this.description = description;
     }
 
-    public String getInfo(){
-        return"";
-    }
-
     public boolean isFavorite() {
         return favorite;
     }
