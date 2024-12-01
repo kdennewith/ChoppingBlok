@@ -12,13 +12,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class HomeRecyclerViewAdapter extends RecyclerView.Adapter<HomeRecyclerViewHolder> {
     Context context;
     private List<Recipe> recipeList;
-
-    RecipeListener recipeListener;
 
     public HomeRecyclerViewAdapter(List<Recipe> recipeList, Context context){
         this.context = context;
@@ -75,9 +74,10 @@ public class HomeRecyclerViewAdapter extends RecyclerView.Adapter<HomeRecyclerVi
     }
 
     public void updateRecipes(List<Recipe> newRecipes) {
-        this.recipeList.clear();
-        this.recipeList.addAll(newRecipes);
-        notifyDataSetChanged();
+        if (!this.recipeList.equals(newRecipes)) {
+            this.recipeList = new ArrayList(newRecipes);
+            notifyDataSetChanged();
+        }
     }
 
 }

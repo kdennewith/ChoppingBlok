@@ -1,6 +1,8 @@
 package com.example.recipebookgui;
 
 import androidx.fragment.app.Fragment;
+
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -26,11 +28,9 @@ import java.util.List;
 
 public class HomePage extends Fragment {
     private Toolbar topBar;
-    private TextView title;
     private SearchView searchbar;
     private RecyclerView recipeHolder;
     private static DatabaseReference database;
-    private List<Recipe> filteredRecipes = new ArrayList<>();
     private List<Recipe> allRecipes = new ArrayList<>();
     HomeRecyclerViewAdapter homeRecyclerViewAdapter;
 
@@ -46,13 +46,11 @@ public class HomePage extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         database = FirebaseDatabase.getInstance().getReference("recipe_table");
         topBar = view.findViewById(R.id.title_bar_home);
-        title = view.findViewById(R.id.toolbar_title);
         searchbar = view.findViewById(R.id.homepage_searchbar);
         recipeHolder = view.findViewById(R.id.homepage_recyclerview);
         recipeHolder.setLayoutManager(new LinearLayoutManager(getActivity()));
         homeRecyclerViewAdapter = new HomeRecyclerViewAdapter(allRecipes, getActivity());
         recipeHolder.setAdapter(homeRecyclerViewAdapter);
-
         database.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot snapshot) {
@@ -79,6 +77,7 @@ public class HomePage extends Fragment {
             @Override
             public boolean onQueryTextSubmit(String query) {
                 filter(query);
+                Toast.makeText(getActivity(), "Searching for: " + query, Toast.LENGTH_SHORT).show();
                 return true;
             }
 
@@ -91,8 +90,8 @@ public class HomePage extends Fragment {
              */
             @Override
             public boolean onQueryTextChange(String newText) {
-                if(newText == null){
-                    homeRecyclerViewAdapter.updateRecipes(allRecipes);
+                if(newText == null || newText.trim().isEmpty()){
+                    homeRecyclerViewAdapter.updateRecipes(new ArrayList<>(allRecipes));
                 }else{
                     filter(newText);
                 }
@@ -129,6 +128,7 @@ public class HomePage extends Fragment {
             }
         }
         homeRecyclerViewAdapter.updateRecipes(filteredRecipes);
+
     }
 
 }
