@@ -9,14 +9,20 @@ public class Recipe {
     private String imageSource;
     private List<Ingredient> ingredientList;
     private String description;
+    private boolean favorite;
+    private String key;
 
+    public Recipe(){}
 
-    public Recipe(List<Ingredient> ingredientList, String recipesName, String imageSource, String description) {
+    public Recipe(String key, String description, boolean favorite, String imageSource, List<Ingredient> ingredientList, String recipesName) {
+        this.key = key;
         this.recipesName = recipesName;
         this.imageSource = imageSource;
         this.ingredientList = ingredientList;
         this.description = description;
+        this.favorite = favorite;
     }
+
 
 
     public String getRecipesName() {
@@ -52,7 +58,21 @@ public class Recipe {
     }
 
     public String getInfo(){
-
         return"";
+    }
+
+    public boolean isFavorite() {
+        return favorite;
+    }
+
+    public void setFavorite(boolean favorite) {
+        this.favorite = favorite;
+    }
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
     }
 }

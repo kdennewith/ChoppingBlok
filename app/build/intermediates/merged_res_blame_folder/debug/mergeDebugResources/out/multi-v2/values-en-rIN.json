@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.recipebookgui.app-mergeDebugResources-30:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.example.recipebookgui.app-mergeDebugResources-33:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kdenn\\.gradle\\caches\\8.9\\transforms\\48a694b10e054ce39f6ed392220d1b8c\\transformed\\appcompat-1.7.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\kdenn\\.gradle\\caches\\transforms-3\\e3048bc2dd4bd4afc18c6d5e92d5b7b2\\transformed\\appcompat-1.7.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kdenn\\.gradle\\caches\\8.9\\transforms\\ca07e507144f00d175806809cbbdbd49\\transformed\\core-1.13.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\kdenn\\.gradle\\caches\\transforms-3\\7d89aa66a3612ae5b285ac92068cd024\\transformed\\core-1.13.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
