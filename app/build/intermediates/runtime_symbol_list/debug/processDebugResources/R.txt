@@ -3299,6 +3299,7 @@ int drawable ic_call_decline 0x7f0700a2
 int drawable ic_call_decline_low 0x7f0700a3
 int drawable ic_clear_black_24 0x7f0700a4
 int drawable ic_clock_black_24dp 0x7f0700a5
+int drawable ic_default_camera 0x7f070103
 int drawable ic_favorite_filled 0x7f0700a6
 int drawable ic_favorite_outline 0x7f0700a7
 int drawable ic_keyboard_black_24dp 0x7f0700a8

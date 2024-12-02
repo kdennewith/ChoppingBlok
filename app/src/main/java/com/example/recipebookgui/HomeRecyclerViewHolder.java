@@ -37,8 +37,13 @@ public class HomeRecyclerViewHolder extends RecyclerView.ViewHolder {
      * @param recipe the Recipe object you are binding to this HomeRecyclerViewHolder
      */
     void bindRecipes(final Recipe recipe) {
-        @SuppressLint("DiscouragedApi") int resourceId = context.getResources().getIdentifier(recipe.getImageSource(), "drawable", context.getPackageName());
-        cardImage.setImageResource(resourceId);
+        if(!recipe.getImageSource().isEmpty() && recipe.getImageSource() != "") {
+            @SuppressLint("DiscouragedApi") int resourceId = context.getResources().getIdentifier(recipe.getImageSource(), "drawable", context.getPackageName());
+            cardImage.setImageResource(resourceId);
+        }else {
+            @SuppressLint("DiscouragedApi") int resourceId = context.getResources().getIdentifier("ic_default_camera", "drawable", context.getPackageName());
+            cardImage.setImageResource(resourceId);
+        }
         recipeName.setText(recipe.getRecipesName());
         if (recipe.isFavorite()) {
             favoriteHeart.setImageResource(R.drawable.ic_favorite_filled);

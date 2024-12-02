@@ -8,10 +8,6 @@
         "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-35:/layout_home_page.xml.flat",
-        "source": "com.example.recipebookgui.app-main-37:/layout/home_page.xml"
-    },
-    {
         "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\mipmap-xhdpi_home.png.flat",
         "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\mipmap-xhdpi\\home.png"
     },
@@ -86,6 +82,10 @@
     {
         "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-37:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-35:/drawable_ic_default_camera.xml.flat",
+        "source": "com.example.recipebookgui.app-main-37:/drawable/ic_default_camera.xml"
     },
     {
         "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
