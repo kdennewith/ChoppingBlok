@@ -63,6 +63,18 @@
                                 <PersistentState>
                                   <option name="children">
                                     <map>
+                                      <entry key="backgroundImage">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="scalingPercent" value="400" />
+                                                <entry key="trimmed" value="true" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
                                       <entry key="foregroundClipArt">
                                         <value>
                                           <PersistentState>
@@ -80,6 +92,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="imagePath" value="C:\Users\kdenn\Downloads\BlokIcon(1).png" />
+                                                <entry key="scalingPercent" value="85" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -107,6 +121,13 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="backgroundAssetType" value="COLOR" />
+                                      <entry key="backgroundColor" value="420000" />
+                                      <entry key="outputName" value="ic_app_icon" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -146,7 +167,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\kdenn\Downloads\favpng_frying-pan-royalty-free-cookware-clip-art.png" />
+                                                <entry key="imagePath" value="C:\Users\kdenn\Downloads\Blok.png" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -180,7 +201,7 @@
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
                                       <entry key="iconShape" value="NONE" />
-                                      <entry key="imageAsset" value="C:\Users\kdenn\Downloads\favpng_frying-pan-royalty-free-cookware-clip-art.png" />
+                                      <entry key="imageAsset" value="C:\Users\kdenn\Downloads\Blok.png" />
                                       <entry key="outputName" value="recipes" />
                                     </map>
                                   </option>
@@ -306,11 +327,6 @@
                                 </PersistentState>
                               </value>
                             </entry>
-                          </map>
-                        </option>
-                        <option name="values">
-                          <map>
-                            <entry key="outputIconType" value="LAUNCHER_LEGACY" />
                           </map>
                         </option>
                       </PersistentState>

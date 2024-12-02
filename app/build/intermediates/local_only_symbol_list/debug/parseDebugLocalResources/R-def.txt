@@ -1,6 +1,8 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color ic_app_blok
+color ic_app_icon_background
 color textPrimary
 color textSecondary
 color tint
@@ -50,6 +52,9 @@ layout newrecipe_page
 layout recipe_page
 menu bottom_nav_menu
 mipmap home
+mipmap ic_app_icon
+mipmap ic_app_icon_foreground
+mipmap ic_app_icon_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap plus
