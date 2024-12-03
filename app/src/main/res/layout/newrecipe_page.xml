@@ -55,49 +55,15 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp" />
 
-    <!-- Ingredients Row (RecyclerViews and Dropdown) -->
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/ingredientsRow"
+    <!-- RecyclerView for Ingredients -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ingredientRecyclerView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/ingredientsLabel"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="8dp">
-
-        <!-- Ingredients Name RecyclerView -->
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/ingredientsName"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/ingredientsAmount"
-            android:layout_marginEnd="8dp" />
-
-        <!-- Ingredients Amount RecyclerView -->
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/ingredientsAmount"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toEndOf="@id/ingredientsName"
-            app:layout_constraintEnd_toStartOf="@id/dropdown_menu"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginEnd="8dp" />
-
-        <!-- Dropdown Menu (using Material Spinner or Spinner for selection) -->
-        <androidx.appcompat.widget.AppCompatSpinner
-            android:id="@+id/dropdown_menu"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toEndOf="@id/ingredientsAmount"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintBottom_toTopOf="@id/addIngredientButton" />
 
     <!-- Add Ingredient Button -->
     <ImageButton
@@ -108,7 +74,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:background="?attr/selectableItemBackgroundBorderless"
-        app:layout_constraintTop_toBottomOf="@id/ingredientsRow"
+        app:layout_constraintTop_toBottomOf="@id/ingredientRecyclerView"
         app:layout_constraintEnd_toEndOf="parent"
         android:src="@drawable/plus_sign_18"
         android:scaleType="centerInside" />
@@ -142,3 +108,4 @@
         app:cornerRadius="5dp"
         app:layout_constraintTop_toBottomOf="@id/description" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+
