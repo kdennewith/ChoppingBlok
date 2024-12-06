@@ -61,7 +61,7 @@ public class HomeRecyclerViewAdapter extends RecyclerView.Adapter<HomeRecyclerVi
         holder.favoriteHeart.setOnClickListener(v -> {
             try {
                 if (recipe.getKey() != null) { // Ensure the recipe ID is not null
-                    DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("recipe_table").child(recipe.getKey());
+                    DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("recipes").child(recipe.getKey());
                     if (!recipe.isFavorite()) {
                         holder.favoriteHeart.setImageResource(R.drawable.ic_favorite_filled);
                         recipe.setFavorite(true);

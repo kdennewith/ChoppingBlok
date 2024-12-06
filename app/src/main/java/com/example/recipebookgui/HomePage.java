@@ -44,7 +44,7 @@ public class HomePage extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        database = FirebaseDatabase.getInstance().getReference("recipe_table");
+        database = FirebaseDatabase.getInstance().getReference("recipes");
         topBar = view.findViewById(R.id.title_bar_home);
         searchbar = view.findViewById(R.id.homepage_searchbar);
         recipeHolder = view.findViewById(R.id.homepage_recyclerview);

@@ -1,30 +1,29 @@
 package com.example.recipebookgui;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Recipe {
 
     private String recipesName;
-    private String imageSource; // Was gonna just use a .jpg name as String but gonna try Bitmap
-    private List<Ingredient> ingredientList; //List of ingredient objects
-    private String description; // Can explain the recipes steps in here
+    private String imageSource; // This will store image file name or path (currently not used)
+    private List<Ingredient> ingredientList; // List of ingredient objects
+    private String description; // Recipe steps or description
     private boolean favorite; // Holds the Favorite status of the Recipe
-    private String key; // What the node's key is I used the default key Strings made by Firebase.
+    private String key; // Firebase generated key for each recipe
 
-    public Recipe(){}
+    // Default constructor
+    public Recipe() {}
 
-    public Recipe(String key, String description, boolean favorite, String imageSource, List<Ingredient> ingredientList, String recipesName) {
-        this.key = key;
+    // Full constructor
+    public Recipe(String recipesName, String description, boolean favorite, String imageSource, List<Ingredient> ingredientList) {
         this.recipesName = recipesName;
-        this.imageSource = imageSource;
-        this.ingredientList = ingredientList;
         this.description = description;
         this.favorite = favorite;
+        this.imageSource = imageSource;
+        this.ingredientList = ingredientList;
     }
 
-
-
+    // Getter and Setter methods
     public String getRecipesName() {
         return recipesName;
     }
@@ -64,6 +63,7 @@ public class Recipe {
     public void setFavorite(boolean favorite) {
         this.favorite = favorite;
     }
+
     public String getKey() {
         return key;
     }
@@ -71,4 +71,5 @@ public class Recipe {
     public void setKey(String key) {
         this.key = key;
     }
+
 }

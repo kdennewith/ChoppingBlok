@@ -5,15 +5,19 @@ public class Ingredient {
     private int amount;
     private String measureUnit;
 
+    // No-argument constructor required for Firebase deserialization
+    public Ingredient() {
+        // Empty constructor for Firebase to use
+    }
 
-    //constructor
+    // Constructor with parameters
     public Ingredient(String name, int amount, String measureUnit) {
         this.name = name;
         this.amount = amount;
         this.measureUnit = measureUnit;
     }
 
-    //getter and setter methods
+    // Getter and setter methods
     public String getName() {
         return name;
     }
